@@ -1,0 +1,90 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #9F6A9F;
+}
+
+#wrapper {
+	
+	max-width: 70rem;
+	background-color: #fff;
+	margin: 2rem auto;
+	padding: 0.25rem;
+}
+
+#wrapper img {
+	width: 99%;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+#wrapper h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	margin-bottom: 1.75rem;
+}
+
+#search-term {
+	margin-bottom: 2.5rem;
+}
+
+#search-term #query {
+	font-size: 1rem;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 0.02rem;
+	padding: 0.5rem;
+	margin-right: 1rem;
+	border-radius: 0.5rem;
+}
+
+#search-term #query:focus {
+	outline: none;
+}
+
+#search-term .submitButton {
+	font-size: 1rem;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 0.02rem;
+	padding: 0.5rem;
+	color: #fff;
+	background-color: #9F6A9F;
+	border: none;
+	border-radius: 0.25rem;
+}
+
+#search-term .submitButton:focus {
+	outline: none;
+}
+
+#search-results {
+	display: inline-block;
+	width: 100%;
+}
+
+#search-results li {
+	margin: 2rem;
+	padding: 1rem;
+	border: 1px solid #874387;
+	max-width: 30rem;
+	display: inline-block;
+}
+
+#search-results li p {
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.03rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #874387;
+}
+
+#search-results li img {
+	margin: 1rem;
+}
+
+
+
